@@ -1,0 +1,39 @@
+
+#productsTable{
+    margin-top: 1%;
+}
+.btn{
+    margin-right:2%
+}
+.ModalHead{
+    background-color: #2983FE;
+    color: white;
+}
+.hidden{
+    display:none;
+}
+.content{
+    margin-top:3vh;
+    margin-bottom:3vh;
+    padding-bottom: 3vh;
+    margin-left:24vw;
+    margin-right:3vw;
+    transition: all 0.3s;
+}
+.dashboardColor{
+    color:#6c67bf;
+}
+.content.active{
+    margin-left:4vw;
+}
+@media (max-width: 994px){
+    .content{
+        margin-top:3vh;
+        margin-bottom:3vh;
+        margin-left:4vw;
+        margin-right:3vw;
+    }
+    .content.active{
+        margin-left:4vw;
+    }
+}
